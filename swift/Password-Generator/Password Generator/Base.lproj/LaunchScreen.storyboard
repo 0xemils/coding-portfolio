@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loading screen 2 Without text" translatesAutoresizingMaskIntoConstraints="NO" id="TS1-hn-pLw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Mx1-jA-OZm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwn-pR-S7C">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="408"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lee Chun inc." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hm4-a6-0PS">
+                                                <rect key="frame" x="125" y="187.5" width="164" height="33.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="hm4-a6-0PS" firstAttribute="centerX" secondItem="pwn-pR-S7C" secondAttribute="centerX" id="J5A-le-P3E"/>
+                                            <constraint firstItem="hm4-a6-0PS" firstAttribute="centerY" secondItem="pwn-pR-S7C" secondAttribute="centerY" id="Tuj-sH-Qn1"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SoG-An-moP">
+                                        <rect key="frame" x="0.0" y="410" width="414" height="408"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rGb-hD-IBD">
+                                                <rect key="frame" x="57" y="202" width="300" height="4"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="rGb-hD-IBD" firstAttribute="leading" secondItem="SoG-An-moP" secondAttribute="leading" constant="57" id="5Dy-ye-MAV"/>
+                                            <constraint firstItem="rGb-hD-IBD" firstAttribute="centerY" secondItem="SoG-An-moP" secondAttribute="centerY" id="715-8m-qdu"/>
+                                            <constraint firstItem="rGb-hD-IBD" firstAttribute="centerX" secondItem="SoG-An-moP" secondAttribute="centerX" id="IxA-Kk-Z9w"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="TS1-hn-pLw" secondAttribute="bottom" id="7jY-7e-DyR"/>
+                            <constraint firstItem="Mx1-jA-OZm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MB0-AY-Dqe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mx1-jA-OZm" secondAttribute="trailing" id="ZQ8-cq-znp"/>
+                            <constraint firstAttribute="trailing" secondItem="TS1-hn-pLw" secondAttribute="trailing" id="aUh-H8-B13"/>
+                            <constraint firstItem="TS1-hn-pLw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="f8F-aV-ptD"/>
+                            <constraint firstItem="TS1-hn-pLw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ghU-v2-kVO"/>
+                            <constraint firstItem="Mx1-jA-OZm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sgz-kL-zh7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mx1-jA-OZm" secondAttribute="bottom" id="yQy-vS-6N0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Loading screen 2 Without text" width="216" height="389"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

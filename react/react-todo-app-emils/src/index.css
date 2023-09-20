@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: url("../public/moris_bckg.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todoContainer {
+  background-color: #1B1D38;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 30px;
+  padding: 25px;
+  width: 35%;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 10px 10px cyan;
+}
+
+.inputField {
+  background-color: black;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  border: 2px solid cyan;
+}
+
+.formButton {
+  width: 80px;
+  height: 60px;
+  color: white;
+  font-size: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+
+}
+
+.inputStyle {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: cyan;
+}
+
+.todoItem {
+  background-color: #1C375C;
+  margin: 10px;
+  border-radius: 7px;
+  height: 50px auto;
+  font-size: 37px;
+  width: 85%;
+  padding: 10px;
+}
+
+.itemButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 25px;
+  color: cyan;
+}
+
+.titleStyle {
+  color: white;
+  font-size: 55px;
+}

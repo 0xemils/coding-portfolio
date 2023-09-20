@@ -1,0 +1,106 @@
+body,
+html {
+    background-color: #d9e3f0;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+h1 {
+    color: darkslategrey;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 800;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+
+    /* Creating the background for header section */
+    background-color: #cdcdcd;
+    opacity: 1;
+    background-image: linear-gradient(30deg, #d9e3f0 12%, transparent 12.5%, transparent 87%, #d9e3f0 87.5%, #d9e3f0), linear-gradient(150deg, #d9e3f0 12%, transparent 12.5%, transparent 87%, #d9e3f0 87.5%, #d9e3f0), linear-gradient(30deg, #d9e3f0 12%, transparent 12.5%, transparent 87%, #d9e3f0 87.5%, #d9e3f0), linear-gradient(150deg, #d9e3f0 12%, transparent 12.5%, transparent 87%, #d9e3f0 87.5%, #d9e3f0), linear-gradient(60deg, #d9e3f077 25%, transparent 25.5%, transparent 75%, #d9e3f077 75%, #d9e3f077), linear-gradient(60deg, #d9e3f077 25%, transparent 25.5%, transparent 75%, #d9e3f077 75%, #d9e3f077);
+    background-size: 54px 95px;
+    background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+p,
+address,
+ul {
+    text-align: left;
+    color: dimgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0 10% 0 10%;
+}
+
+.headmenu {
+    color: dimgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: auto;
+    background-color: darkslategrey;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    width: 350px;
+    font-size: 20px;
+    color: dimgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 200px 0 200px;
+}
+
+.menu_link:link {
+    transition: 0.5s;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.menu_link:visited,
+.menu_link:active {
+    color: dimgray;
+}
+
+.menu_link:hover {
+    color: #e6fffa;
+    text-shadow: 0 0 10px #b3fff0,
+        0 0 20px #b3fff0,
+        0 0 40px #b3fff0,
+        0 0 80px #b3fff0,
+        0 0 120px #b3fff0,
+        0 0 120px #b3fff0;
+}
+
+.personal_img {
+    width: 150px;
+    border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Lighting design for the current page link in header menu */
+.current_page {
+    color: #e6fffa;
+    text-shadow: 0 0 10px #affcc1,
+        0 0 20px #affcc1,
+        0 0 40px #affcc1,
+        0 0 80px #affcc1,
+        0 0 120px #affcc1,
+        0 0 120px #affcc1;
+}
