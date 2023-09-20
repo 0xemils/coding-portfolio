@@ -9,7 +9,7 @@ Thank you for visiting my portfolio repository, and I hope you enjoy exploring m
 
 If you have any questions, feedback, or collaboration opportunities, please don't hesitate to reach out to me. You can contact me through:
 
-- My Email: ![My Email Address](media/email-address.gif)
+- ![My Email Address](media/email-address.gif)
 
 
-- [My LinkedIn](www.linkedin.com/in/emilsb)
+- [My LinkedIn](https://www.linkedin.com/in/emilsb)
